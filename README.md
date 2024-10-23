@@ -1,7 +1,7 @@
 # CCSNe_Detection
 CCSNe detection project code from paper https://arxiv.org/abs/2410.06430
 
-The Python script "Generate_qgrams_signal_latest.ipynb" generates and saves the Q-transform spectrograms as images. "s11.2--LS220_0.1kpc_sim100_SNR29.21.txt" is an example signal time series as the input, and "s11.2--LS220_0.1kpc_sim100_SNR29.21.png" is the Q-transform output saved as an image.
+The Python script "Generate_qgrams_signal_latest.ipynb" generates and saves the Q-transform spectrograms as images. "s11.2--LS220_0.1kpc_sim100_SNR29.21.txt" is an example signal time series as the input, and "s11.2--LS220_0.1kpc_sim100_SNR29.21.png" is the Q-transform output saved as an image. The same process applies for the LIGO noise, but instead of "new_simulation_training/signal/" one should use "new_simulation_training/noise/".
 
 "train_network_m.m" is the main Matlab script for training the CNN using the Q-transform output spectrogram. It runs "initialize_network.m" to initialize the ResNet18 network.
 
