@@ -7,3 +7,5 @@ The Python script "Generate_qgrams_signal_latest.ipynb" generates and saves the 
 
 The pre-trained network parameters "initial_params_resnet18.mat" can be downloaded here https://drive.google.com/file/d/1ecVfsLRXvlYvILDh2OV4FR0ZAj5b8B2E/view?usp=drive_link.
 
+Alternatively you could also use "CCSNe_detection_training.ipynb" for network training.
+
